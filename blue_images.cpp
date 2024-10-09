@@ -68,7 +68,8 @@
 //	Mat image_copy = img.clone();
 //	drawContours(image_copy, contours, -1, Scalar(0,255, 0), 2);
 //	imshow("contours image", image_copy);*/
-//
+//b
+// //ZDsg
 //	/*Mat image_copy3 = img.clone();
 //	for (int i = 0; i < contours.size(); i = i + 1) {
 //		for (int j = 0; j < contours[i].size(); j = j + 1) {
