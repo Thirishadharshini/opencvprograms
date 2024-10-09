@@ -108,6 +108,7 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>C:\Users\User\Downloads\dirent-1.24\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -132,26 +133,38 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="adding_images.cpp" />
     <ClCompile Include="Adiing_patches.cpp" />
     <ClCompile Include="annotating_images.cpp" />
+    <ClCompile Include="bitwise_and.cpp" />
     <ClCompile Include="blanck_im.cpp" />
     <ClCompile Include="blob detection.cpp" />
     <ClCompile Include="Blurred_image.cpp" />
     <ClCompile Include="cashew.cpp" />
+    <ClCompile Include="cashew1.cpp" />
     <ClCompile Include="colour_spaces.cpp" />
     <ClCompile Include="concatenation.cpp" />
     <ClCompile Include="Croping_image.cpp" />
     <ClCompile Include="edgedetection.cpp" />
+    <ClCompile Include="Blue images.cpp" />
     <ClCompile Include="filter_kernel_identity.cpp" />
     <ClCompile Include="image.cpp" />
     <ClCompile Include="image_patch.cpp" />
     <ClCompile Include="image_resizing.cpp" />
+    <ClCompile Include="iterating_directory.cpp" />
+    <ClCompile Include="Morphological_functions.cpp" />
+    <ClCompile Include="morpho_contours.cpp" />
     <ClCompile Include="mouse\trackbar.cpp" />
+    <ClCompile Include="numbers.cpp" />
+    <ClCompile Include="number_task.cpp" />
     <ClCompile Include="opencvprograms.cpp" />
     <ClCompile Include="Removing_text.cpp" />
     <ClCompile Include="rotating-image.cpp" />
+    <ClCompile Include="shapes_range.cpp" />
+    <ClCompile Include="Shapes_split_fn.cpp" />
     <ClCompile Include="Sharpening images.cpp" />
     <ClCompile Include="thresholding.cpp" />
+    <ClCompile Include="Track_Bar.cpp" />
     <ClCompile Include="Translation.cpp" />
     <ClCompile Include="videoProcess.cpp" />
   </ItemGroup>
