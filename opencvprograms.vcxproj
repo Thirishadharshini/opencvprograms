@@ -142,6 +142,7 @@
     <ClCompile Include="Blurred_image.cpp" />
     <ClCompile Include="cashew.cpp" />
     <ClCompile Include="cashew1.cpp" />
+    <ClCompile Include="checking.cpp" />
     <ClCompile Include="colour_spaces.cpp" />
     <ClCompile Include="concatenation.cpp" />
     <ClCompile Include="Croping_image.cpp" />
