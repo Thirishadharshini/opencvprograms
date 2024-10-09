@@ -7,23 +7,28 @@
 //{
 //	Mat img = imread("C:/Users/User/Downloads/bubbles-1853237_640.jpg", IMREAD_GRAYSCALE);
 //
+//	// Setup SimpleBlobDetector parameters.
 //	SimpleBlobDetector::Params params;
 //
+//	// Change thresholds
 //	params.minThreshold = 10;
 //	params.maxThreshold = 200;
 //
+//	// Filter by Area.
 //	params.filterByArea = true;
 //	params.minArea = 1500;
 //
-//	//params.filterByCircularity = true;
-//	//params.minCircularity = 0.1;
+//	// Filter by Circularity
+//	params.filterByCircularity = true;
+//	params.minCircularity = 0.1;
 //
-//	//params.filterByConvexity = true;
-//	//params.minConvexity = 0.87;
+//	// Filter by Convexity
+//	params.filterByConvexity = true;
+//	params.minConvexity = 0.87;
 //
-//	//// Filter by Inertia
-//	//params.filterByInertia = true;
-//	//params.minInertiaRatio = 0.01;
+//	// Filter by Inertia
+//	params.filterByInertia = true;
+//	params.minInertiaRatio = 0.01;
 //
 //    // Set up detector with params
 //	Ptr<SimpleBlobDetector> detector = SimpleBlobDetector::create(params);
@@ -35,7 +40,7 @@
 //	detector->detect(img, keypoints);
 //
 //	Mat im_with_keypoints;
-//	drawKeypoints(img, keypoints, im_with_keypoints, Scalar(0, 255, 0), DrawMatchesFlags::DRAW_RICH_KEYPOINTS);
+//	drawKeypoints(img, keypoints, im_with_keypoints, Scalar(0, 255, 255), DrawMatchesFlags::DRAW_RICH_KEYPOINTS);
 //
 //	// Show blobs
 //	imshow("Keypoints", im_with_keypoints);
