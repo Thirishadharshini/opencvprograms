@@ -3,8 +3,8 @@
 //
 //int main()
 //{
-//	cv::Mat img1 = cv::imread("$(SolutionDir)Downloads\Animi.jpeg");
-//	cv::Mat img2 = cv::imread("$(SolutionDir)Downloads\animation.jpeg");
+//	cv::Mat img1 = cv::imread("./images/Animi.jpeg");
+//	cv::Mat img2 = cv::imread("./images/animation.jpeg");
 //	std::cout << img1.size()<<std::endl;
 //	std::cout << img2.size()<<std::endl;
 //	cv::Mat r_img1,r_img2;

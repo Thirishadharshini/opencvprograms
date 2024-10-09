@@ -42,7 +42,7 @@
     <ClCompile Include="Removing_text.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Adiing_patches.cpp">
+    <ClCompile Include="adding_patches.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="rotating-image.cpp">

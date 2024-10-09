@@ -7,7 +7,7 @@
 //int main()
 //{
 //    
-//    Mat image = imread("C:/Users/User/OneDrive/Pictures/Camera Roll/cashew.jpg");
+//    Mat image = imread("./images/Image_20240928105123410.bmp");
 //    Mat img;
 //    resize(image, img, Size(500, 500),INTER_AREA);
 //    imshow("original Image", img);

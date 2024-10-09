@@ -10,7 +10,7 @@
 //void scaleImage(int, void*)
 //{
 //    
-//    cv::Mat image = cv::imread("C:/Users/User/Downloads/flower-7696955_1280.jpg");
+//    cv::Mat image = cv::imread("./images/flower 2024-09-24.jpg");
 //    double scaleFactorDouble = 1 + scaleFactor / 100.0;
 //    if (scaleFactorDouble == 0)
 //    {
@@ -25,7 +25,7 @@
 //int main()
 //{
 // 
-//    cv::Mat image = cv::imread("C:/Users/User/Downloads/flower-7696955_1280.jpg");
+//    cv::Mat image = cv::imread("./images/flower 2024-09-24.jpg");
 //    cv::namedWindow(windowName, cv::WINDOW_AUTOSIZE);
 //    cv::createTrackbar(trackbarValue, windowName, &scaleFactor, maxScaleUp, scaleImage);
 //    scaleImage(50, 0);

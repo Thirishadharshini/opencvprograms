@@ -5,8 +5,8 @@
 //
 //int main()
 //{
-//	Mat img1 = imread("C:/Users/User/Downloads/gerbera-1684436_640.jpg");
-//	Mat img = imread("C:/Users/User/Downloads/gerbera-1684436_640.jpg", IMREAD_GRAYSCALE);
+//	Mat img1 = imread("./images/gerbera-1684436_640.jpg");
+//	Mat img = imread("./images/gerbera-1684436_640.jpg", IMREAD_GRAYSCALE);
 //	Mat dst,dst1,dst2,dst3,dst4;
 //	double thresh = 200;
 //	double max_value = 255;

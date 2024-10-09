@@ -5,7 +5,7 @@
 //using namespace cv;
 //int main()
 //{
-//	Mat img = imread("C:/Users/User/Downloads/bubbles-1853237_640.jpg", IMREAD_GRAYSCALE);
+//	Mat img = imread("./images/bubbles-1853237_640.jpg", IMREAD_GRAYSCALE);
 //	SimpleBlobDetector::Params params;
 //	params.minThreshold = 10;
 //	params.maxThreshold = 200;

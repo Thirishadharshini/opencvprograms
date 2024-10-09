@@ -6,7 +6,7 @@
 //
 //int main()
 //{
-//	Mat img = imread("C:/Users/User/Downloads/flower-7696955_1280.jpg");
+//	Mat img = imread("./images/flower 2024-09-24.jpg");
 //	Mat identity_img;
 //	Mat kernel = (Mat_<double>(3, 3) << 0, 0, 0, 0, 1, 0, 0, 0, 0);
 //	filter2D(img, identity_img, -1,kernel);

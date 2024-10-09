@@ -5,8 +5,8 @@
 //using namespace cv;
 //int main()
 //{
-//	Mat bright = imread("C:\\Users\\User\\Downloads\\rubik'scube_bright.jpg");
-//	Mat dark = imread("C:\\Users\\User\\Downloads\\rubik'scube_dark.jpg");
+//	Mat bright = imread("./images/rubik'scube_bright.jpg");
+//	Mat dark = imread("./images/rubik'scube_dark.jpg");
 //
 //	Mat bright_lab, dark_lab;
 //	cvtColor(bright, bright_lab,COLOR_BGR2Lab );

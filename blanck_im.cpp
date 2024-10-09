@@ -4,7 +4,7 @@
 //using namespace cv;
 //int main()
 //{
-//	Mat image = imread("C:/Users/User/Downloads/flower-7696955_1280.jpg");
+//	Mat image = imread("./images/shapes.jpg");
 //	int type = image.type();
 //	cout << "type of the image" << type;
 //	Mat img = Mat(500, 500, CV_8UC3, Scalar(255,200 ,0));

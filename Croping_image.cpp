@@ -6,7 +6,7 @@
 //
 //int main()
 //{
-//	Mat img = imread("C:/Users/User/Downloads/flower-7696955_1280.jpg");
+//	Mat img = imread("./images/flower 2024-09-24.jpg");
 //	cout << "original image width:" <<img.size().width << endl;
 //	cout << "original image height:" << img.size().height << endl;
 //	cout << "channels" << img.channels() << endl;

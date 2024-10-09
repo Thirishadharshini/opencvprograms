@@ -133,7 +133,7 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="adding_images.cpp" />
-    <ClCompile Include="Adiing_patches.cpp" />
+    <ClCompile Include="adding_patches.cpp" />
     <ClCompile Include="annotating_images.cpp" />
     <ClCompile Include="bitwise_and.cpp" />
     <ClCompile Include="blanck_im.cpp" />

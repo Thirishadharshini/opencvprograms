@@ -5,7 +5,7 @@
 //
 //int main()
 //{
-//	Mat rimg = imread("C:/Users/User/Downloads/flower-7696955_1280.jpg");
+//	Mat rimg = imread("./images/flower 2024-09-24.jpg");
 //	int width = rimg.cols;//832
 //	int height = rimg.rows;//1280
 //	Mat img;

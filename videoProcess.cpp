@@ -7,7 +7,7 @@
 ////int main()
 ////{
 ////   
-////    VideoCapture vid_capture("C:/Users/User/Downloads/road.mp4");
+////    VideoCapture vid_capture("./images/road.mp4");
 ////
 ////    // Print error message if the stream is invalid
 ////    if (!vid_capture.isOpened())

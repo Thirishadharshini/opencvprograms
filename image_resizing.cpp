@@ -6,7 +6,7 @@
 //
 //int main()
 //{
-//	Mat image = imread("C://Users//User//OneDrive//Pictures//Screenshots//Screenshot 2023-11-18 200056.png");
+//	Mat image = imread("./images/Screenshot 2023-11-18 200056.png");
 //	cout << "original size: " << image.rows << "x" << image.cols;
 //
 //	//resize function

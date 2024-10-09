@@ -3,7 +3,7 @@
 //
 //int main() {
 //    // Load the image with text
-//    cv::Mat img = cv::imread("C:\\Users\\User\\OneDrive\\Documents\\shapes.jpg");
+//    cv::Mat img = cv::imread("./images/shapes.jpg");
 //
 //   
 //    // Convert to grayscale

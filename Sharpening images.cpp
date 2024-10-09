@@ -5,7 +5,7 @@
 //int main()
 //{
 //
-//	Mat image = imread("C:/Users/User/Downloads/gerbera-1684436_640.jpg");
+//	Mat image = imread("./images/gerbera-1684436_640.jpg");
 //
 //
 //	Mat sharp_img;

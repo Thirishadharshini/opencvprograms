@@ -5,9 +5,9 @@
 //int main()
 //{
 //	
-//	Mat img = imread("C://Users//User//OneDrive//Pictures//Screenshots//Screenshot 2023-11-18 200056.png");
-//	//Mat img1 = imread("C://Users//User//OneDrive//Pictures//Screenshots//Screenshot 2023-11-18 200056.png");
-//	//Mat img2 = imread("C://Users//User//OneDrive//Pictures//Screenshots//Screenshot 2023-11-18 200056.png");
+//	Mat img = imread("./images/Screenshot 2023-11-18 200056.png");
+//	//Mat img1 = imread("./images/Screenshot 2023-11-18 200056.png");
+//	//Mat img2 = imread("./images/Screenshot 2023-11-18 200056.png");
 //	Mat rimg;
 //		resize(img,rimg,Size(200,200 ),INTER_AREA);
 //	/*Mat a, b;

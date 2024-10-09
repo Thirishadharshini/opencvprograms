@@ -7,7 +7,7 @@
 //
 //int main()
 //{
-//    Mat img1 = imread("C:/Users/User/Downloads/flower-7696955_1280.jpg");
+//    Mat img1 = imread("./images/flower 2024-09-24.jpg");
 //    Mat img;
 //    resize(img1, img, Size(521, 686), INTER_AREA);
 //    Mat image_copy = img.clone();

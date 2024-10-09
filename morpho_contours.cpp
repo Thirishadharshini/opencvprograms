@@ -3,7 +3,7 @@
 //
 //int main()
 //{
-//	cv::Mat image = cv::imread("C:/Users/User/MVS/Data/Image_20240928105123410.bmp");
+//	cv::Mat image = cv::imread("./images/Image_20240928105123410.bmp");
 //	cv::Mat img;
 //	resize(image, img, cv::Size(500, 500));
 //	imshow("resized image", img);

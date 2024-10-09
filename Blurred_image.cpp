@@ -5,7 +5,7 @@
 //int main()
 //{
 //
-//	Mat image = imread("C:/Users/User/Downloads/flower-7696955_1280.jpg");
+//	Mat image = imread("./images/flower 2024-09-24.jpg");
 //	/*Mat image;
 //	resize(simg, image, Size(500, 500),INTER_AREA);*/
 //	Mat kernel2 = Mat::ones(5, 5, CV_64F);

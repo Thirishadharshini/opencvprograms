@@ -16,7 +16,7 @@
 //bitwise_and(img, img, result, blue);
 //imshow("bitwise image", result);
 
-iterating_directory
+
 //#include <opencv2/opencv.hpp>
 //
 //#include <dirent.h>

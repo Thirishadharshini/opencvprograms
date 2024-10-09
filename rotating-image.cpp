@@ -6,7 +6,7 @@
 //
 //int main()
 //{
-//	Mat rimg = imread("C:/Users/User/Downloads/flower-7696955_1280.jpg");
+//	Mat rimg = imread("./images/flower 2024-09-24.jpg");
 //	Mat img;
 //	resize(rimg, img, Size(400, 600), INTER_AREA);
 //	Point2d center((img.cols - 1) / 2.0, (img.rows) - 1 / 2.0);

@@ -5,7 +5,7 @@
 //
 //int main()
 //{
-//	Mat img = imread("C:\\Users\\User\\OneDrive\\Documents\\colored_shapes.jpg", 1);
+//	Mat img = imread("./images/colored_shapes.jpg", 1);
 //
 //	Mat image;
 //	resize(img, image, Size(500, 500), INTER_LINEAR);

@@ -35,7 +35,7 @@
 //// Main function
 //int main()
 //{
-//    image = imread("C:/Users/User/Downloads/flower-7696955_1280.jpg");
+//    image = imread("./images/flower 2024-09-24.jpg");
 //    // Make a temporary image, which will be used to clear the image
 //    Mat temp = image.clone();
 //    // Create a named window
