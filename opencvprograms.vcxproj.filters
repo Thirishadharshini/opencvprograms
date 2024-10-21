@@ -119,7 +119,7 @@
     <ClInclude Include="Image filter\image filter.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="object processing\mouse.h">
+    <ClInclude Include="object processing\obj_processing.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="task\task.h">

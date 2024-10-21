@@ -176,7 +176,7 @@
     <ClInclude Include="basic operations\basics operations.h" />
     <ClInclude Include="header files\basics operations.h" />
     <ClInclude Include="Image filter\image filter.h" />
-    <ClInclude Include="object processing\mouse.h" />
+    <ClInclude Include="object processing\obj_processing.h" />
     <ClInclude Include="task\task.h" />
     <ClInclude Include="video\video.h" />
   </ItemGroup>

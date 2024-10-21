@@ -1,9 +1,9 @@
 #include<opencv2/opencv.hpp>
-#include "basics operations.h"
-#include"mouse.h"
-#include"task.h"
-#include"video.h"
-#include"image filter.h"
+#include "basic operations/basics operations.h"
+#include"object processing/obj_processing.h"
+#include"task/task.h"
+#include"video/video.h"
+#include"Image filter/image filter.h"
 //#include"blue_images.cpp"
 
 using namespace std;
