@@ -1,8 +1,5 @@
-#include<iostream>
-#include<opencv2/opencv.hpp>
-#include"mouse.h"
-using namespace std;
-using namespace cv;
+#include"obj_processing.h"
+
 void image_pro::threshold_fn()
 {
 	Mat img1 = imread("./images/gerbera-1684436_640.jpg");

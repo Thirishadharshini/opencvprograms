@@ -2,7 +2,7 @@
 //
 
 #include"basics operations.h"
-#include <iostream>
+
 
 void basic_operations::opencv()
 {

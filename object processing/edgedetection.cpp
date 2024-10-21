@@ -1,8 +1,4 @@
-#include <opencv2/opencv.hpp>
-#include <iostream>
-#include"mouse.h"
-using namespace std;
-using namespace cv;
+#include"obj_processing.h"
 
 void image_pro::edge_detect()
 {

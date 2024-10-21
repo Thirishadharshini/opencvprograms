@@ -1,8 +1,4 @@
-#include<iostream>
-#include<opencv2/opencv.hpp>
 #include"image filter.h"
-using namespace std;
-using namespace cv;
 
 void  img_filter::identity()
 {

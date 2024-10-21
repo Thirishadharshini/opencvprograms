@@ -1,7 +1,4 @@
-#include <opencv2/opencv.hpp>
-#include <iostream>
-#include <string>
-#include"mouse.h"
+#include"obj_processing.h"
 int maxScaleUp = 1000;
 int scaleFactor = 1;
 std::string windowName = "Resize Image";

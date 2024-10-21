@@ -1,6 +1,4 @@
-#include<iostream>
-#include<opencv2/opencv.hpp>
-#include"mouse.h"
+#include"obj_processing.h"
 void image_pro::morpho_contours()
 {
 	cv::Mat image = cv::imread("./images/Image_20240928105123410.bmp");

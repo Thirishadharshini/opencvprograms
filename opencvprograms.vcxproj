@@ -174,11 +174,54 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="basic operations\basics operations.h" />
-    <ClInclude Include="header files\basics operations.h" />
     <ClInclude Include="Image filter\image filter.h" />
     <ClInclude Include="object processing\obj_processing.h" />
     <ClInclude Include="task\task.h" />
     <ClInclude Include="video\video.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="images\animation.jpeg" />
+    <Image Include="images\Animi.jpeg" />
+    <Image Include="images\background-image-653353_1280.jpg" />
+    <Image Include="images\blur_kernel.jpg" />
+    <Image Include="images\bubbles-1853237_640.jpg" />
+    <Image Include="images\cashew-nut-5222308_1280.jpg" />
+    <Image Include="images\cashew.jpg" />
+    <Image Include="images\colored_shapes.jpg" />
+    <Image Include="images\contours_none_image1.jpg" />
+    <Image Include="images\flower 2024-09-24.jpg" />
+    <Image Include="images\gerbera-1684436_640.jpg" />
+    <Image Include="images\Image_20240928104919496.bmp" />
+    <Image Include="images\Image_20240928105004226.bmp" />
+    <Image Include="images\Image_20240928105035759.bmp" />
+    <Image Include="images\Image_20240928105055674.bmp" />
+    <Image Include="images\Image_20240928105113924.bmp" />
+    <Image Include="images\Image_20240928105123410.bmp" />
+    <Image Include="images\image_thres1.jpg" />
+    <Image Include="images\image_without_text.jpg" />
+    <Image Include="images\lantana-8037634_640.jpg" />
+    <Image Include="images\opencvimage.jpg" />
+    <Image Include="images\opencvimage1.jpeg" />
+    <Image Include="images\opencvimage2.png" />
+    <Image Include="images\opencvimage3.bmp" />
+    <Image Include="images\patched.jpg" />
+    <Image Include="images\rationcardfront.jpg" />
+    <Image Include="images\rubik%27scube_bright.jpg" />
+    <Image Include="images\rubik%27scube_dark.jpg" />
+    <Image Include="images\Screenshot 2023-11-18 200056.png" />
+    <Image Include="images\shapes.jpg" />
+    <Image Include="images\shapes2.jpg" />
+    <Image Include="images\shapesshapes1.jpg" />
+    <Image Include="images\shapesshapes2.jpg" />
+    <Image Include="images\star-1842985_1280.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include=".gitattributes" />
+    <None Include=".gitignore" />
+    <None Include="images\DALL·E 2024-09-27 15.51.53 - A grayscale image showing multiple distinct round blobs of different sizes scattered across a plain background. The blobs should be simple, filled, an.webp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Media Include="images\road.mp4" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

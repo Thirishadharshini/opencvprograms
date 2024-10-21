@@ -1,9 +1,4 @@
-#include <opencv2/opencv.hpp> 
-#include <iostream> 
 #include"basics operations.h"
-//#define PREM -1
-using namespace cv;
-using namespace std;
 
 void basic_operations::image()
 {

@@ -1,8 +1,5 @@
-#include<opencv2/opencv.hpp>
-#include <iostream>
 #include"task.h"
-using namespace std;
-using namespace cv;
+
 
 //int largestContour(vector<vector<Point>> contours)
 //{

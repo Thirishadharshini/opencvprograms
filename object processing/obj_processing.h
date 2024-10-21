@@ -1,6 +1,12 @@
 #pragma once
 #ifndef IMAGE_PROCESSING
 #define IMAGE_PROCESSING
+#include <opencv2/opencv.hpp>
+#include <iostream>
+#include<vector>
+#include<string>
+using namespace std;
+using namespace cv;
 class image_pro {
 public:
    // void blob_detection();

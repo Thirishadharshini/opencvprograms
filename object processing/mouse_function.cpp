@@ -1,12 +1,4 @@
-// Import packages
-#include <opencv2/opencv.hpp>
-#include <vector>
-#include <iostream>
-#include"mouse.h"
-
-//Using namespace to nullify use of cv::function(); syntax
-using namespace cv;
-using namespace std;
+#include"obj_processing.h"
 
 // Points to store the bounding box coordinates
 Point top_left_corner, bottom_right_corner;

@@ -110,9 +110,6 @@
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="header files\basics operations.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
     <ClInclude Include="basic operations\basics operations.h">
       <Filter>Header Files</Filter>
     </ClInclude>
@@ -128,5 +125,117 @@
     <ClInclude Include="video\video.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="images\animation.jpeg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\Animi.jpeg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\background-image-653353_1280.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\blur_kernel.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\bubbles-1853237_640.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\cashew.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\cashew-nut-5222308_1280.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\colored_shapes.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\contours_none_image1.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\flower 2024-09-24.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\gerbera-1684436_640.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\Image_20240928104919496.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\Image_20240928105004226.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\Image_20240928105035759.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\Image_20240928105055674.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\Image_20240928105113924.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\Image_20240928105123410.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\image_thres1.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\image_without_text.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\lantana-8037634_640.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\opencvimage.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\opencvimage1.jpeg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\opencvimage2.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\opencvimage3.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\patched.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\rationcardfront.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\rubik%27scube_bright.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\rubik%27scube_dark.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\Screenshot 2023-11-18 200056.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\shapes.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\shapes2.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\shapesshapes1.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\shapesshapes2.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\star-1842985_1280.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\DALL·E 2024-09-27 15.51.53 - A grayscale image showing multiple distinct round blobs of different sizes scattered across a plain background. The blobs should be simple, filled, an.webp" />
+    <None Include=".gitattributes" />
+    <None Include=".gitignore" />
+  </ItemGroup>
+  <ItemGroup>
+    <Media Include="images\road.mp4" />
   </ItemGroup>
 </Project>

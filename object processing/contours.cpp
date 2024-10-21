@@ -1,8 +1,4 @@
-#include <opencv2/opencv.hpp>
-#include <iostream>
-#include"mouse.h"
-using namespace std;
-using namespace cv;
+#include"obj_processing.h"
 void image_pro::contours_fn() {
     
     Mat image = imread("./images/flower 2024-09-24.jpg");

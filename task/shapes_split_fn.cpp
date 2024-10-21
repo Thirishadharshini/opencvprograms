@@ -1,8 +1,4 @@
-#include<iostream>
-#include<opencv2/opencv.hpp>
 #include"task.h"
-using namespace std;
-using namespace cv;
 
 void task_function::shape_split()
 {

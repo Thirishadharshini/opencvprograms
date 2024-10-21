@@ -1,8 +1,4 @@
-#include<iostream>
-#include<opencv2/opencv.hpp>
-#include"mouse.h"
-using namespace std;
-using namespace cv;
+#include"obj_processing.h"
 
 void image_pro::rotating_fn()
 {

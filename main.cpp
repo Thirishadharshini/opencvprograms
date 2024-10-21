@@ -64,7 +64,7 @@ int main()
     //b.contours_fn();
 
     //for detecting edge of a object in a image
-   // p.edge_detect();
+   p.edge_detect();
 
     //to find difference btw area of obj in org image and (eroded & dilated) image
     //p.morpho_contours();
@@ -73,7 +73,7 @@ int main()
    // p.morpho_fn();
     
    // annotating images using mouse(GUI interface)
-   // p.mouse_call();
+   //p.mouse_call();
    
    // function for rotating images
    // p.rotating_fn();
@@ -82,7 +82,7 @@ int main()
     //p.track_bar();
    
    // for types of thresholding methods
-    p.threshold_fn();
+    //p.threshold_fn();
 
     //
     video_fn v;
@@ -90,7 +90,7 @@ int main()
     //v.video();
 
     task_function t;
-    t.cashew();
+    //t.cashew();
     //t.number();
     //t.remove_txt();
     //t.shape();

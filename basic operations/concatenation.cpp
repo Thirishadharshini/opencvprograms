@@ -1,8 +1,5 @@
-#include<iostream>
-#include<opencv2/opencv.hpp>
 #include"basics operations.h"
-using namespace std;
-using namespace cv;
+
 void basic_operations::concatenation()
 {
 	

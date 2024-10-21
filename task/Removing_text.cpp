@@ -1,5 +1,3 @@
-#include <opencv2/opencv.hpp>
-#include <iostream>
 #include"task.h"
 void task_function::remove_txt() {
     // Load the image with text

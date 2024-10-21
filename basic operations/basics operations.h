@@ -1,7 +1,10 @@
 #pragma once
 #ifndef ADD_IMG_H
 #define ADD_IMG_H
-
+#include<iostream>
+#include<opencv2/opencv.hpp>
+using namespace std;
+using namespace cv;
 class basic_operations {
 public:
     //void adding_img();
