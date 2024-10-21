@@ -74,6 +74,10 @@
     <IncludePath>C:\Users\User\opencv\build\include;$(IncludePath)</IncludePath>
     <LibraryPath>C:\Users\User\opencv\build\x64\vc16\lib;$(LibraryPath)</LibraryPath>
   </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <IncludePath>C:\Users\User\opencv\build\include;$(IncludePath)</IncludePath>
+    <LibraryPath>C:\Users\User\opencv\build\x64\vc16\lib;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>
       <WarningLevel>Level3</WarningLevel>
@@ -108,6 +112,7 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>https://github.com/tronkko/dirent/releases/tag/1.24</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -123,47 +128,59 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>https://github.com/tronkko/dirent/releases/tag/1.24</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
       <EnableCOMDATFolding>true</EnableCOMDATFolding>
       <OptimizeReferences>true</OptimizeReferences>
       <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>opencv_world4100d.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>C:\Users\User\opencv\build\x64\vc16\lib;$(LibraryPath);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="adding_images.cpp" />
-    <ClCompile Include="adding_patches.cpp" />
-    <ClCompile Include="annotating_images.cpp" />
-    <ClCompile Include="bitwise_and.cpp" />
-    <ClCompile Include="blanck_im.cpp" />
-    <ClCompile Include="blob detection.cpp" />
-    <ClCompile Include="blue_images.cpp" />
-    <ClCompile Include="Blurred_image.cpp" />
-    <ClCompile Include="cashew.cpp" />
-    <ClCompile Include="cashew1.cpp" />
-    <ClCompile Include="colour_spaces.cpp" />
-    <ClCompile Include="concatenation.cpp" />
-    <ClCompile Include="Croping_image.cpp" />
-    <ClCompile Include="edgedetection.cpp" />
-    <ClCompile Include="filter_kernel_identity.cpp" />
-    <ClCompile Include="image.cpp" />
-    <ClCompile Include="image_patch.cpp" />
-    <ClCompile Include="image_resizing.cpp" />
-    <ClCompile Include="morphological_functions.cpp" />
-    <ClCompile Include="morpho_contours.cpp" />
-    <ClCompile Include="mouse\trackbar.cpp" />
-    <ClCompile Include="number_task.cpp" />
-    <ClCompile Include="opencvprograms.cpp" />
-    <ClCompile Include="Removing_text.cpp" />
-    <ClCompile Include="rotating-image.cpp" />
-    <ClCompile Include="shapes_range.cpp" />
-    <ClCompile Include="shapes_split_fn.cpp" />
-    <ClCompile Include="Sharpening images.cpp" />
-    <ClCompile Include="thresholding.cpp" />
-    <ClCompile Include="track_bar.cpp" />
-    <ClCompile Include="Translation.cpp" />
-    <ClCompile Include="videoProcess.cpp" />
+    <ClCompile Include="basic operations\add_img.cpp" />
+    <ClCompile Include="basic operations\annotating_images.cpp" />
+    <ClCompile Include="basic operations\bitwise_and.cpp" />
+    <ClCompile Include="basic operations\blanck_im.cpp" />
+    <ClCompile Include="basic operations\colour_spaces.cpp" />
+    <ClCompile Include="basic operations\concatenation.cpp" />
+    <ClCompile Include="basic operations\Croping_image.cpp" />
+    <ClCompile Include="basic operations\image.cpp" />
+    <ClCompile Include="basic operations\image_patch.cpp" />
+    <ClCompile Include="basic operations\image_resizing.cpp" />
+    <ClCompile Include="basic operations\opencvprograms.cpp" />
+    <ClCompile Include="Image filter\Blurred_image.cpp" />
+    <ClCompile Include="Image filter\filter_kernel_identity.cpp" />
+    <ClCompile Include="Image filter\Sharpening images.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="object processing\blob detection.cpp" />
+    <ClCompile Include="object processing\contours.cpp" />
+    <ClCompile Include="object processing\edgedetection.cpp" />
+    <ClCompile Include="object processing\morphological_functions.cpp" />
+    <ClCompile Include="object processing\morpho_contours.cpp" />
+    <ClCompile Include="object processing\mouse_function.cpp" />
+    <ClCompile Include="object processing\rotating-image.cpp" />
+    <ClCompile Include="object processing\thresholding.cpp" />
+    <ClCompile Include="object processing\track_bar.cpp" />
+    <ClCompile Include="object processing\Translation.cpp" />
+    <ClCompile Include="task\blue_images.cpp" />
+    <ClCompile Include="task\cashew.cpp" />
+    <ClCompile Include="task\cashew1.cpp" />
+    <ClCompile Include="task\number_task.cpp" />
+    <ClCompile Include="task\Removing_text.cpp" />
+    <ClCompile Include="task\shapes_range.cpp" />
+    <ClCompile Include="task\shapes_split_fn.cpp" />
+    <ClCompile Include="video\videoProcess.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="basic operations\basics operations.h" />
+    <ClInclude Include="header files\basics operations.h" />
+    <ClInclude Include="Image filter\image filter.h" />
+    <ClInclude Include="object processing\mouse.h" />
+    <ClInclude Include="task\task.h" />
+    <ClInclude Include="video\video.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

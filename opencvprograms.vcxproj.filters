@@ -15,101 +15,124 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="opencvprograms.cpp">
+    <ClCompile Include="main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="image.cpp">
+    <ClCompile Include="task\shapes_range.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="videoProcess.cpp">
+    <ClCompile Include="task\shapes_split_fn.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="image_resizing.cpp">
+    <ClCompile Include="task\Removing_text.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Croping_image.cpp">
+    <ClCompile Include="task\number_task.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="image_patch.cpp">
+    <ClCompile Include="task\blue_images.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="concatenation.cpp">
+    <ClCompile Include="task\cashew.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="blanck_im.cpp">
+    <ClCompile Include="task\cashew1.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Removing_text.cpp">
+    <ClCompile Include="basic operations\add_img.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="adding_patches.cpp">
+    <ClCompile Include="basic operations\annotating_images.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="rotating-image.cpp">
+    <ClCompile Include="basic operations\bitwise_and.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Translation.cpp">
+    <ClCompile Include="basic operations\blanck_im.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="annotating_images.cpp">
+    <ClCompile Include="basic operations\colour_spaces.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="colour_spaces.cpp">
+    <ClCompile Include="basic operations\concatenation.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="filter_kernel_identity.cpp">
+    <ClCompile Include="basic operations\Croping_image.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Blurred_image.cpp">
+    <ClCompile Include="basic operations\image.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Sharpening images.cpp">
+    <ClCompile Include="basic operations\image_patch.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="thresholding.cpp">
+    <ClCompile Include="basic operations\image_resizing.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="blob detection.cpp">
+    <ClCompile Include="basic operations\opencvprograms.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="edgedetection.cpp">
+    <ClCompile Include="Image filter\Blurred_image.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="mouse\trackbar.cpp">
+    <ClCompile Include="Image filter\filter_kernel_identity.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="cashew.cpp">
+    <ClCompile Include="Image filter\Sharpening images.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="adding_images.cpp">
+    <ClCompile Include="video\videoProcess.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="bitwise_and.cpp">
+    <ClCompile Include="object processing\contours.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="blue_images.cpp">
+    <ClCompile Include="object processing\blob detection.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="cashew1.cpp">
+    <ClCompile Include="object processing\edgedetection.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="morphological_functions.cpp">
+    <ClCompile Include="object processing\morpho_contours.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="morpho_contours.cpp">
+    <ClCompile Include="object processing\morphological_functions.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="number_task.cpp">
+    <ClCompile Include="object processing\mouse_function.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="shapes_range.cpp">
+    <ClCompile Include="object processing\rotating-image.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="shapes_split_fn.cpp">
+    <ClCompile Include="object processing\thresholding.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="track_bar.cpp">
+    <ClCompile Include="object processing\track_bar.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="object processing\Translation.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="header files\basics operations.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="basic operations\basics operations.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Image filter\image filter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="object processing\mouse.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="task\task.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="video\video.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
