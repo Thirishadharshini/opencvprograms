@@ -140,7 +140,6 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="basic operations\add_img.cpp" />
     <ClCompile Include="basic operations\annotating_images.cpp" />
     <ClCompile Include="basic operations\bitwise_and.cpp" />
     <ClCompile Include="basic operations\blanck_im.cpp" />
@@ -167,7 +166,6 @@
     <ClCompile Include="object processing\Translation.cpp" />
     <ClCompile Include="task\blue_images.cpp" />
     <ClCompile Include="task\cashew.cpp" />
-    <ClCompile Include="task\cashew1.cpp" />
     <ClCompile Include="task\number_task.cpp" />
     <ClCompile Include="task\Removing_text.cpp" />
     <ClCompile Include="task\shapes_range.cpp" />

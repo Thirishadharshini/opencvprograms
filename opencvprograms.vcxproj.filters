@@ -36,12 +36,6 @@
     <ClCompile Include="task\cashew.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="task\cashew1.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="basic operations\add_img.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="basic operations\annotating_images.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
